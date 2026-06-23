@@ -1,4 +1,4 @@
-# 🚀 Proyecto: AWS CDK con TypeScript 
+# 🚀 Ejercicio práctico: CDK con TypeScript 
 ¡Hola! Este es mi ejercicio práctico En este proyecto, logré automatizar la creación de infraestructura en AWS utilizando TypeScript y AWS CDK.
 
 # 🛠️ Tecnologías Utilizadas
@@ -31,6 +31,11 @@ Instalar dependencias:
 ``
 npm install
 ``
+Desplegar en AWS:
+
+```
+cdk deploy --profile <TU-PERFIL-DE-AWS>
+```
 
 # 👨‍💻 Autor
 Sebastián Varón
