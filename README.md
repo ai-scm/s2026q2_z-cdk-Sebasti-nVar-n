@@ -1,14 +1,38 @@
-# Welcome to your CDK TypeScript project
+# 🚀 Proyecto: AWS CDK con TypeScript 
+¡Hola! Este es mi ejercicio práctico En este proyecto, logré automatizar la creación de infraestructura en AWS utilizando TypeScript y AWS CDK.
 
-This is a blank project for CDK development with TypeScript.
+# 🛠️ Tecnologías Utilizadas
+AWS CDK (Cloud Development Kit): Infraestructura como código (IaC).
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+TypeScript: Lenguaje principal de desarrollo.
 
-## Useful commands
+AWS S3: Bucket personalizado para almacenamiento.
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+AWS Lambda: Función de computación serverless.
+
+Git/GitHub: Control de versiones y despliegue.
+
+# 📦 Arquitectura del Proyecto
+Este stack crea automáticamente los siguientes recursos:
+
+Bucket S3: Llamado sebastian-varon-cdk-2026, configurado con versionamiento y política de eliminación segura.
+
+AWS Lambda: Función sencilla que responde con "Hello World!".
+
+# ⚙️ Cómo ejecutar este proyecto
+Clonar el repositorio:
+
+```
+git clone https://github.com/ai-scm/s2026q2_z-cdk-Sebasti-nVar-n.git
+cd s2026q2-z-cdk-Sebastianvaron
+```
+
+Instalar dependencias:
+``
+npm install
+``
+
+# 👨‍💻 Autor
+Sebastián Varón
+
+¡Hecho con dedicación y código limpio! 🌟
